@@ -10,6 +10,7 @@ window.addEventListener('DOMContentLoaded', function() {
       if (card.classList.contains('is-matched')) {
         return;
       }
+      selectedCards.push(card);
 
       // If we haven't selected 2 cards yet, add the current card to the
       // collection of selected cards and apply the correct CSS class.
